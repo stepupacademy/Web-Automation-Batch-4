@@ -1,0 +1,4 @@
+TestCases\BaseTest.class
+TestCases\WelcomeMessage.class
+TestCases\LoginPageTestCases.class
+TestCases\RegisterPageTestCases.class

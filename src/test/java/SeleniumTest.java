@@ -48,8 +48,7 @@ public class SeleniumTest {
     }
 
     @Test
-    public void checkSearch()
-    {
+    public void checkSearch() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();

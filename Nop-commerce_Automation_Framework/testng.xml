@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="E:/Teaching Course/Testing/Batch 4/Automation/Nop-commerce_Automation_Framework">
+        <parameter name="username" value="user1"></parameter>
+        <parameter name="password" value="password1"></parameter>
+        <classes>
+            <class name="TestNGTestCases.LoginParameterizingTestCases"/>
+        </classes>
+    </test>
+</suite>
